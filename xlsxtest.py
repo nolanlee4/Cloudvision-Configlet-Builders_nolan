@@ -2,8 +2,8 @@
 import pyexcel
 
 #build dictionary of excel sheet
-#my_array = pyexcel.get_array(file_name="testcsv.xlsx")
-my_dict = pyexcel.get_dict(file_name="testcsv.xlsx")
+#my_array = pyexcel.get_array(file_name="cutsheet.xlsx")
+my_dict = pyexcel.get_dict(file_name="cutsheet.xlsx")
 
 # print '%s' % (my_array)
 
