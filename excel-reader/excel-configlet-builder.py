@@ -38,9 +38,6 @@ from cvplibrary import CVPGlobalVariables,GlobalVariableNames
 #build dictionary of excel sheet
 my_dict = pyexcel.get_dict(file_name="/opt/CVPfiles/cutsheet.xlsx")
 
-# print '%s' % (my_array)
-
-#print my_dict
 #define variables from keys of dictionary
 systemId = my_dict['systemId']
 ip_address = my_dict['ipAddress']
@@ -48,9 +45,8 @@ hostname = my_dict['hostname']
 netmask = my_dict['Netmask']
 gateway = my_dict['defaultGateway']
 print
-# print systemId[0]
 
-#get user input from form, to be added
+#get user input from form
 user_input = Form.getFieldById('systemId').getValue()
 
 device_index = systemId.index(user_input)
