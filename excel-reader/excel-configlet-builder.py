@@ -51,7 +51,6 @@ user_input = Form.getFieldById('systemId').getValue()
 
 device_index = systemId.index(user_input)
 
-#print systemId[device_index]
 print 'hostname %s' % (hostname[device_index])
 print "!"
 print "interface management 1"
