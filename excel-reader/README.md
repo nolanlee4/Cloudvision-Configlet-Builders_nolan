@@ -18,4 +18,4 @@ upload the cutsheet.xlsx to the cvp server, and must give the cvp user permissio
 
 This is currently a work in progress. Right now the script works as a configlet builder with one form that accepts user input to identify the device being configured based on the systemId in the first column of the spreadsheet.
 
-Currently, the script configures hostname, management ip, default route, but I am planning on extending to more. 
+Currently, the script configures hostname, management ip, default route, but I am planning on extending to more. For input, email me at nolan@arista.com
